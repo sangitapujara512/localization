@@ -17,7 +17,7 @@ export default class componentName extends Component {
     }
     render() {
         const {localLanguage}=this.state;
-        const showTitle= localLanguage === 'en'? demoJson.demo.title.en: localLanguage === 'pt'? demoJson.demo.title.pt :demoJson.demo.title.es;         
+        const showTitle= localLanguage === 'en'? demoJson.demo.title.en : localLanguage === 'pt'? demoJson.demo.title.pt : localLanguage === 'es'? demoJson.demo.title.es:demoJson.demo.title.en
         
         return (
             <div>
