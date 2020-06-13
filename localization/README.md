@@ -1,5 +1,34 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is about localization.
+Steps:
+1) Home Page displays : select language
+2) Based on the language selected by user, this app displays Hello World in the language selected.
+
+Logic used for Localization :
+Based on the language selected, changed state variable and based on state variable display Hello world in respective language. Used simple conditional rendering.
+
+Reason for the folder structure:
+Used create-react-app to get basic folder structure which is sustainable and maintanable for further progress of the project.
+For localization Folder structure:
+Added components folder
+To add Home page and Home component.
+To store the json structure for language used simple data.js
+Imported it in Home component for use.
+
+App.css: added simple css and made responsive for Tab, phone.
+
+Steps to run this app
+1) Go to https://github.com/sangitapujara512/localization
+2) Download zip file.
+3) Unzip above downloaded folder
+4) cd localization
+5) npm install if npm already installed then npm update.
+6) npm start
+7) App will open on local server.
+
+For any clarification please mailto : sangitapujara512@gmail.com
+
 ## Available Scripts
 
 In the project directory, you can run:
